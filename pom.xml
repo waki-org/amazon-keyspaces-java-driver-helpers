@@ -72,4 +72,11 @@
         </plugins>
 
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/waki-org/amazon-keyspaces-java-driver-helpers</url>
+        </repository>
+    </distributionManagement>
 </project>
